@@ -1,0 +1,68 @@
+2022-12-02 11:13:25,299 INFO [main] Application [ApplicationEngineEnvironmentReloading.kt:160] -%PARSER_ERROR[kvp]- Autoreload is disabled because the development mode is off.
+2022-12-02 11:13:26,107 INFO [main] Application [BaseApplicationEngine.kt:64] -%PARSER_ERROR[kvp]- Application started in 0.866 seconds.
+2022-12-02 11:13:26,108 INFO [main] Application [CallLogging.kt:30] -%PARSER_ERROR[kvp]- Application started: io.ktor.server.application.Application@74971ed9
+2022-12-02 11:13:26,414 INFO [DefaultDispatcher-worker-1] Application [BaseApplicationEngine.kt:76] -%PARSER_ERROR[kvp]- Responding at http://127.0.0.1:8080
+2022-12-02 11:17:19,627 INFO [main] Application [CallLogging.kt:30] -%PARSER_ERROR[kvp]- Application stopping: io.ktor.server.application.Application@74971ed9
+2022-12-02 11:17:19,634 INFO [main] Application [CallLogging.kt:30] -%PARSER_ERROR[kvp]- Application stopped: io.ktor.server.application.Application@74971ed9
+2022-12-02 11:17:21.969 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-12-02 11:17:22.729 [main] INFO  Application - Application started in 0.818 seconds.
+2022-12-02 11:17:22.730 [main] INFO  Application - Application started: io.ktor.server.application.Application@5f404594
+2022-12-02 11:17:22.954 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2022-12-02 11:17:37.269 [DefaultDispatcher-worker-1] DEBUG Exposed - SELECT users.user_id, users.user_name, users.password, users.salt FROM users WHERE users.user_name = 'warehouse'
+2022-12-02 11:17:37.382 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mPOST[m - /user/login
+2022-12-02 11:19:07.097 [KtorShutdownHook] INFO  Application - Application stopping: io.ktor.server.application.Application@5f404594
+2022-12-02 11:19:07.099 [KtorShutdownHook] INFO  Application - Application stopped: io.ktor.server.application.Application@5f404594
+2022-12-02 11:22:47.036 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-12-02 11:22:47.795 [main] INFO  Application - Application started in 0.813 seconds.
+2022-12-02 11:22:47.796 [main] INFO  Application - Application started: io.ktor.server.application.Application@5f404594
+2022-12-02 11:22:48.019 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2022-12-02 11:22:55.407 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mPOST[m - /user/login
+2022-12-02 11:25:32.209 [KtorShutdownHook] INFO  Application - Application stopping: io.ktor.server.application.Application@5f404594
+2022-12-02 11:25:32.212 [KtorShutdownHook] INFO  Application - Application stopped: io.ktor.server.application.Application@5f404594
+2022-12-02 11:35:55.271 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-12-02 11:35:56.182 [main] INFO  Application - Application started in 0.965 seconds.
+2022-12-02 11:35:56.183 [main] INFO  Application - Application started: io.ktor.server.application.Application@5f404594
+2022-12-02 11:35:56.409 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2022-12-02 11:36:01.901 [eventLoopGroupProxy-4-1] INFO  Exposed - File successfully stored to D:\warehouse_images\12788\IMG_12788_67890.jpeg
+2022-12-02 11:36:02.475 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mPOST[m - /orders/uploadImage
+2022-12-05 14:26:34.962 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-12-05 14:26:35.982 [main] INFO  Application - Application started in 1.078 seconds.
+2022-12-05 14:26:35.983 [main] INFO  Application - Application started: io.ktor.server.application.Application@5f404594
+2022-12-05 14:26:36.206 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2022-12-05 14:26:50.489 [eventLoopGroupProxy-4-1] INFO  Application - [31m401 Unauthorized[m: [36mGET[m - /orders/all
+2022-12-05 14:27:00.460 [eventLoopGroupProxy-4-1] INFO  Application - [31m404 Not Found[m: [36mPOST[m - /user/login
+2022-12-05 14:27:09.078 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mPOST[m - /user/login
+2022-12-05 14:27:09.319 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/all
+2022-12-05 14:27:13.479 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/name/11254
+2022-12-05 14:27:14.281 [eventLoopGroupProxy-4-2] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/image/IMG_11254_1669374439540.jpeg
+2022-12-05 14:27:14.312 [eventLoopGroupProxy-4-3] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/image/IMG_11254_1670229766867.jpeg
+2022-12-05 14:27:17.527 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/all
+2022-12-05 14:27:42.764 [eventLoopGroupProxy-4-1] INFO  Application - [31m400 Bad Request[m: [36mGET[m - /orders/name/123456
+2022-12-05 14:27:57.279 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/all
+2022-12-05 14:38:37.360 [eventLoopGroupProxy-4-4] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/all
+2022-12-05 14:48:55.063 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/all
+2022-12-05 14:49:04.080 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/name/11248
+2022-12-05 14:49:04.968 [eventLoopGroupProxy-4-2] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/image/IMG_11248_1669990841923.jpeg
+2022-12-05 14:49:04.982 [eventLoopGroupProxy-4-3] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/image/IMG_11248_1669990551577.jpeg
+2022-12-05 14:49:05.057 [eventLoopGroupProxy-4-3] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/image/IMG_11248_1669990846642.jpeg
+2022-12-05 14:49:06.753 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/all
+2022-12-05 14:49:14.760 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/name/11113
+2022-12-05 14:49:23.732 [DefaultDispatcher-worker-6] INFO  Exposed - Found order in Order(orderId=58, orderName=11113, userId=1, username=DiKo123, status=created, createdAt=2022-12-05T14:49:23.697661800, comment=, images=[], uuid=19e2df14-70fa-11eb-8ea2-b42e9999ac9d, goods=[RemoteGoods(art=2090 3/8-3/8, name=Тройник 2090 3 8-3 8 Camozzi, count=1, price=460)], checked=1)
+2022-12-05 14:49:23.735 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mPOST[m - /orders/new
+2022-12-05 14:49:24.347 [eventLoopGroupProxy-4-1] INFO  Exposed - File successfully stored to D:\warehouse_images\11113\IMG_11113_1670240957633.jpeg
+2022-12-05 14:49:24.348 [eventLoopGroupProxy-4-1] INFO  Application - String image OrderImage(orderId=58, imageName=IMG_11113_1670240957633.jpeg, imagePath=D:\warehouse_images\11113\IMG_11113_1670240957633.jpeg)
+2022-12-05 14:49:24.380 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mPOST[m - /orders/uploadImage
+2022-12-05 14:49:24.526 [eventLoopGroupProxy-4-1] INFO  Exposed - File successfully stored to D:\warehouse_images\11113\IMG_11113_1670240958464.jpeg
+2022-12-05 14:49:24.526 [eventLoopGroupProxy-4-1] INFO  Application - String image OrderImage(orderId=58, imageName=IMG_11113_1670240958464.jpeg, imagePath=D:\warehouse_images\11113\IMG_11113_1670240958464.jpeg)
+2022-12-05 14:49:24.567 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mPOST[m - /orders/uploadImage
+2022-12-05 14:49:24.740 [eventLoopGroupProxy-4-1] INFO  Exposed - File successfully stored to D:\warehouse_images\11113\IMG_11113_1670240959240.jpeg
+2022-12-05 14:49:24.741 [eventLoopGroupProxy-4-1] INFO  Application - String image OrderImage(orderId=58, imageName=IMG_11113_1670240959240.jpeg, imagePath=D:\warehouse_images\11113\IMG_11113_1670240959240.jpeg)
+2022-12-05 14:49:24.771 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mPOST[m - /orders/uploadImage
+2022-12-05 14:49:27.213 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/all
+2022-12-05 14:49:28.260 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/name/11113
+2022-12-05 14:49:28.477 [eventLoopGroupProxy-4-3] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/image/IMG_11113_1670240957633.jpeg
+2022-12-05 14:49:28.492 [eventLoopGroupProxy-4-2] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/image/IMG_11113_1670240958464.jpeg
+2022-12-05 14:49:28.556 [eventLoopGroupProxy-4-3] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/image/IMG_11113_1670240959240.jpeg
+2022-12-05 14:49:30.365 [eventLoopGroupProxy-4-1] INFO  Application - [32m200 OK[m: [36mGET[m - /orders/all
+2022-12-05 15:52:24.793 [main] INFO  Application - Application stopping: io.ktor.server.application.Application@5f404594
+2022-12-05 15:52:24.816 [main] INFO  Application - Application stopped: io.ktor.server.application.Application@5f404594
